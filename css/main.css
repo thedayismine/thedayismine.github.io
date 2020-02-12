@@ -14,6 +14,18 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav {
+	display: flex;
+	position:fixed;
+	height: 50px;
+	width:100%;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 50px;
+	-webkit-backdrop-filter:blur(20px);
+	-backdrop-filter:blur(20px);
+}
+
 a {
     text-decoration: none;
     color: hsl(0, 0%, 70.98%);
