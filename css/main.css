@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
-    background: hsl(0, 0%, 9.8%);
-    color: hsl(0, 0%, 81.96%);
+    background: hsl(252, 6.17%, 15.88%);
+    color: hsl(282.86, 13.21%, 89.61%);
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,10 +33,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.2em;
+margin-bottom: 0.8em;
+font-weight: 500;
+line-height: 1.15;
+color: hsl(228, 133.33%, 97.06%);
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
