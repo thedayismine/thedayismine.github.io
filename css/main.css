@@ -17,34 +17,35 @@ nav ul li, footer ul li {
 nav {
 	display: flex;
 	position:fixed;
+	top:0;
 	height: 50px;
 	width:100%;
 	align-items: center;
 	justify-content: flex-start;
 	padding-left: 50px;
 	-webkit-backdrop-filter:blur(20px);
-	-backdrop-filter:blur(20px);
+	backdrop-filter:blur(20px);
+	background: hsl(252, 6.17%, 25.88%,.2);
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
     color: hsl(0, 0%, 70.98%);
 }
 a:hover {
     text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6 {
-margin-top: 1.2em;
-margin-bottom: 0.8em;
-font-weight: 500;
-line-height: 1.15;
-color: hsl(228, 133.33%, 97.06%);
+	margin-top: 1.2em;
+	margin-bottom: 0.8em;
+	font-weight: 500;
+	line-height: 1.15;
+	color: hsl(228, 133.33%, 97.06%);
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
